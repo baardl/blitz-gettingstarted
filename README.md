@@ -8,10 +8,7 @@ Prerequesits
 
 1. Run Docker
 
-* sudo docker run -it -p 8085:8085 -p 4160:4160 baardl/blitz /bin/bash
-** su - blitz
-** cd blitz
-** ./blitz.sh
+* sudo docker run -it -p 8085:8085 -p 4160:4160 -p 4444:22 cantara/blitz 
 
 or..
 
